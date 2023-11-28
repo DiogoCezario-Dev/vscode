@@ -1,0 +1,106 @@
+@font-face {
+    font-family: notosans;
+    src: url(../assents/fonts/NotoSansJP-VariableFont_wght.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: #034159;
+    height: 58px;
+}
+
+#container_header{
+    margin: auto;
+    margin-top: 10px;
+}
+
+#container_geral{
+    background-color: #034159;
+    max-width: 50px;
+    padding-top: 5px;
+    position: fixed;
+}
+
+#container_nav{
+    max-width: 50px;
+    background-color: #034159;
+    position: relative;
+}
+
+nav{
+    margin-left: 4px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+nav > a > img{
+    margin-bottom: 25px;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav > a > img:hover{
+    background-color: #025951;
+}
+
+nav > a > .inverso{
+    filter: invert();
+}
+
+nav > a > .inverso:hover{
+    filter: none;
+}
+
+main >h1{
+    color: white;
+    font-family: 'notosans';
+    margin-top: -7px;
+}
+
+#principal{
+    text-align: center;     
+}
+
+#usuario > h1{
+    margin-top: 15px;
+    font-family: 'notosans';
+    margin-bottom: 30px;
+}
+
+#usuario > p{
+    margin-bottom: 5px;
+}
+
+#foto_perfil{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 100%;
+    background-size: cover;
+    background-image: url(../assents/images/perfil.jpg);
+}
+
+#config_perfil{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+header > p{
+    text-align: center
+}

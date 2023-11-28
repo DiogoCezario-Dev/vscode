@@ -1,0 +1,68 @@
+@font-face {
+    font-family: notosans;
+    src: url(../assents/fonts/NotoSansJP-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: #034159;
+    height: 58px;
+}
+
+#container_header{
+    margin: auto;
+    margin-top: 10px;
+}
+
+#container_geral{
+    background-color: #034159;
+    max-width: 50px;
+    padding-top: 5px;
+    position: fixed;
+}
+
+#container_nav{
+    max-width: 50px;
+    background-color: #034159;
+    position: relative;
+}
+
+nav{
+    margin-left: 4px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+nav > a > img{
+    margin-bottom: 25px;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav > a > img:hover{
+    background-color: #025951;
+}
+
+nav > a > .inverso{
+    filter: invert();
+}
+
+nav > a > .inverso:hover{
+    filter: none;
+}
+
+main >h1{
+    color: white;
+    font-family: 'notosans';
+    margin-top: -7px;
+}
+
+#container_principal{
+    border: 1px solid black     ;    
+}

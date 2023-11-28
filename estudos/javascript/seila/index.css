@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+body > h1{
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+#localMsg > p{
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+
