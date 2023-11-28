@@ -10,7 +10,7 @@ function abrirMenu(){
     <div id="container_nav" >
         <nav><br>
             <a href="../index/index.html"><img src="../assents/images/icon_menu.png" alt=""></a> <br>
-            <a href="perfil.html"><img class="inverso" src="../assents/images/icon_conta.png" alt=""></a> <br>
+            <a href="../perfil/perfil.html"><img class="inverso" src="../assents/images/icon_conta.png" alt=""></a> <br>
             <a href="../config/config.html"><img class="inverso" src="../assents/images/icon_config.png" alt=""></a> <br>
             <a href="suporte.html"><img class="inverso" src="../assents/images/icon_suport.png" alt=""></a> <br>
         </nav>
