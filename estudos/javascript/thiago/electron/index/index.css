@@ -18,6 +18,11 @@ header{
     height: 58px;
 }
 
+#header-superior{
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 15px;
+}
+
 #container_header{
     margin: auto;
     margin-top: 10px;
@@ -36,6 +41,14 @@ header{
     position: relative;
 }
 
+#container_imgMenu > img:hover{
+    filter: invert();
+    transition: 0.3s;
+}
+
+#container_imgMenu > img{
+    transition: 0.3s;
+}
 
 nav{
     margin-left: 4px;
